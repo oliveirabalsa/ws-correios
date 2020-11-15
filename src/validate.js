@@ -1,6 +1,6 @@
 module.exports = (data) => {
   const fields = ["nCdServico", "sCepOrigem", "sCepDestino", "nVlPeso",
-    "nCdFormato", "nCdFormato", "nVlComprimento", "nVlAltura", "nVlLargura",
+    "nCdFormato", "nVlComprimento", "nVlAltura", "nVlLargura",
     "nVlDiametro", "sCdMaoPropria", "nVlValorDeclarado", "sCdAvisoRecebimento"];
 
   const errors = fields.filter((field) => {
